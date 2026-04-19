@@ -1,8 +1,7 @@
 public class MaximumProductSubarray {
 
     public static void main(String[] args){
-//        int[] nums = {2, 0, 3, -2, 4, 2, 8, 0};
-        int[] nums = {0};
+        int[] nums = {2, 0, 3, -2, 4, 2, 8, 0};
         System.out.println(maxProduct(nums));
     }
     public static int maxProduct(int[] nums) {
