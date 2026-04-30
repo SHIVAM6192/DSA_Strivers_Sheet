@@ -9,6 +9,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Queue" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sliding Window" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Hash Table" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OOPs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ Recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basic Programs" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
