@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/OOPs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ Recursion" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basic Programs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HackerRank" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
