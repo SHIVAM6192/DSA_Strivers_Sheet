@@ -41,7 +41,7 @@ public class SlidingWindowMaximum {
         return result;
     }
 
-    // Brute force approch
+    // Brute force approach
 //    public static int[] maxSlidingWindow(int[] nums, int k) {
 //        int n = nums.length;
 //        int size = n - (k - 1);
