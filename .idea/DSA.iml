@@ -14,6 +14,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Basic Programs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HackerRank" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Two Pointer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Math" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Searching" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
