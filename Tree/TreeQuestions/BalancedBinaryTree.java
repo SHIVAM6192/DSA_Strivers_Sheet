@@ -1,6 +1,7 @@
 package TreeQuestions;
 
 // https://leetcode.com/problems/balanced-binary-tree/description/
+
 public class BalancedBinaryTree {
 
     public boolean isBalanced(TreeNode root) {
