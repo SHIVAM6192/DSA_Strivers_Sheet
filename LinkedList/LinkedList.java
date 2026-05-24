@@ -251,22 +251,39 @@ public class LinkedList {
 //        return false;
 //    }
 
+    // Linked List Reverse using recursion
+    public void reverse(Node node){
+        if(node == tail){
+            head = tail;
+            return;
+        }
+
+        reverse(node.next);
+        tail.next = node;
+        tail = node;
+        tail.next = null;
+    }
+
 
     public static void main(String[] args) {
         LinkedList l1 = new LinkedList();
         l1.insertLast(1);
+        l1.insertLast(2);
         l1.insertLast(3);
+        l1.insertLast(4);
         l1.insertLast(5);
 
-        LinkedList l2 = new LinkedList();
-        l2.insertLast(1);
-        l2.insertLast(2);
-        l2.insertLast(6);
-        l2.insertLast(9);
+//        LinkedList l2 = new LinkedList();
+//        l2.insertLast(1);
+//        l2.insertLast(2);
+//        l2.insertLast(6);
+//        l2.insertLast(9);
+//
+//        LinkedList list = mergeSortedList(l1, l2);
 
-        LinkedList list = mergeSortedList(l1, l2);
-
-        list.display();
+        l1.display();
+        l1.reverse(l1.head);
+        l1.display();
     }
 
 }
