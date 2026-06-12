@@ -21,6 +21,7 @@
       <sourceFolder url="file://$MODULE_DIR$/LinkedList" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tree" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Dynamic Programming" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Graphs" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
