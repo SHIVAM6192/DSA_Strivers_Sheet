@@ -2,11 +2,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class DetectCycle {
+public class DetectCycleDFS {
     int size;
     List<List<Integer>> list = new ArrayList<>();
 
-    public DetectCycle(int size){
+    public DetectCycleDFS(int size){
         this.size = size;
 
         for (int i = 0; i < size; i++){
@@ -24,6 +24,7 @@ public class DetectCycle {
         boolean[] visited = new boolean[size];
         Arrays.fill(visited, false);
 
+        // we need to do this cuz graph can be disconnected
         for (int i = 0; i < size; i++){
             if (!visited[i]){
                 if (dfs(i, visited,-1)){
@@ -58,13 +59,13 @@ public class DetectCycle {
 
 
     public static void main(String[] args) {
-        DetectCycle graph = new DetectCycle(7);
+        DetectCycleDFS graph = new DetectCycleDFS(7);
 
         graph.addEdge(0, 1);
         graph.addEdge(1, 2);
         graph.addEdge(2, 3);
         graph.addEdge(2, 4);
-        graph.addEdge(3, 5);
+        graph.addEdge(3, 0);
         graph.addEdge(2, 6);
 
         System.out.println(graph.hasCycle());
