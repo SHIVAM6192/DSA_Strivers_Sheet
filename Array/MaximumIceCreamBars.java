@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/maximum-ice-cream-bars/description
 public class MaximumIceCreamBars {
     public static void main(String[] args) {
         int[] inputes = {1,3,2,4,1};
