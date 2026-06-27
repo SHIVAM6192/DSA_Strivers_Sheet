@@ -5,7 +5,7 @@ import java.util.Map;
 
 // https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/description
 public class FindMaximumNumberElementsInSubset {
-    public int maximumLength(int[] nums) {
+    public static int maximumLength(int[] nums) {
         Map<Long, Integer> freq = new HashMap<>();
         int ones = 0;
         for (int num : nums){
@@ -46,7 +46,8 @@ public class FindMaximumNumberElementsInSubset {
     }
 
     public static void main(String[] args) {
-
+        int[] arr = {5,4,1,2,2};
+        System.out.println(maximumLength(arr));
     }
 
 }
