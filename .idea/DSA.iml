@@ -23,6 +23,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Dynamic Programming" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Graphs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Matrix" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Greedy" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
