@@ -2,14 +2,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
-class Edge{
-    int v;
-    int wt;
-    Edge(int v, int wt){
-        this.v = v;
-        this.wt = wt;
-    }
-}
+//class Edge{
+//    int v;
+//    int wt;
+//    Edge(int v, int wt){
+//        this.v = v;
+//        this.wt = wt;
+//    }
+//}
+
 public class DijkstrasAlgorithm {
     public static void dijkstras(int s, ArrayList<ArrayList<Edge>> g, int v){
         int[] dist = new int[v];
