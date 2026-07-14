@@ -41,6 +41,7 @@ public class CountTheNumberOfCompleteComponents {
 class DSU{
     int[] parent;
     int[] size;
+
     DSU(int n){
         parent = new int[n];
         size = new int[n];
