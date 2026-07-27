@@ -17,7 +17,7 @@ public class Permutations {
             }
             // Add the new element
             tempLits.add(num);
-            // Go back to try nother element
+            // Go back to try another element
             backtrack(resultList, tempLits, nums);
             // Remove the element
             tempLits.remove(tempLits.size()-1);
