@@ -27,6 +27,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Heap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Backtracking" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Daily-Question" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GameStrategy" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
