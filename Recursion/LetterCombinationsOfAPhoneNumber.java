@@ -21,7 +21,7 @@ public class LetterCombinationsOfAPhoneNumber {
         }
 
         for(char c : map.get(digits.charAt(i)).toCharArray()){
-            String temp = new String(s);
+            String temp = s;
             temp += c;
             solve(i+1, digits, temp, ans, map);
         }
