@@ -8,7 +8,7 @@ public class LetterCombinationsOfAPhoneNumber {
     public static List<String> letterCombinations(String digits) {
         Map<Character, String> map = getMap();
         List<String> ans = new ArrayList<>();
-        if(digits.length() == 0) return ans;
+        if(digits.isEmpty()) return ans;
         solve(0, digits, "", ans, map);
         return ans;
     }
