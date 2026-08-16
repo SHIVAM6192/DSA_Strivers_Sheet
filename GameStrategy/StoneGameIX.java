@@ -24,6 +24,5 @@ public class StoneGameIX {
         int[] stones2 = {2};
         System.out.println(stoneGameIX(stones1));
         System.out.println(stoneGameIX(stones2));
-
     }
 }

@@ -41,7 +41,7 @@ public class DijkstrasAlgorithm {
     }
 
     public static void main(String[] args) {
-        int v = 6;
+        int v = 4;
 
         ArrayList<ArrayList<Edge>> graph = new ArrayList<>();
 
@@ -50,18 +50,23 @@ public class DijkstrasAlgorithm {
             graph.add(new ArrayList<>());
         }
 
-        graph.get(0).add(new Edge(1, 2));
-        graph.get(0).add(new Edge(2, 4));
+//        graph.get(0).add(new Edge(1, 2));
+//        graph.get(0).add(new Edge(2, 4));
+//
+//        graph.get(1).add(new Edge(2, 1));
+//        graph.get(1).add(new Edge(3, 7));
+//
+//        graph.get(2).add(new Edge(4, 3));
+//
+//        graph.get(3).add(new Edge(5,1));
+//
+//        graph.get(4).add(new Edge(3, 2));
+//        graph.get(4).add(new Edge(5,5));
 
-        graph.get(1).add(new Edge(2, 1));
-        graph.get(1).add(new Edge(3, 7));
+        graph.get(2).add(new Edge(1, 1));
+        graph.get(2).add(new Edge(3, 1));
+        graph.get(3).add(new Edge(4, 1));
 
-        graph.get(2).add(new Edge(4, 3));
-
-        graph.get(3).add(new Edge(5,1));
-
-        graph.get(4).add(new Edge(3, 2));
-        graph.get(4).add(new Edge(5,5));
 
         dijkstras(0, graph, v);
     }
