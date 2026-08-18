@@ -29,6 +29,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Daily-Question" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GameStrategy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Bitwise" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PrefixSum" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
