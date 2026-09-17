@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments
 public class NumberOfSetsOfKNonOverlappingLineSegments {
     static final long MOD = 1_000_000_007;
     public static int numberOfSets(int n, int k) {
