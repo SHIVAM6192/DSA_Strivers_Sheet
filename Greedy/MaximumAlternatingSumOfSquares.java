@@ -1,0 +1,31 @@
+import java.util.Arrays;
+
+// https://leetcode.com/problems/maximum-alternating-sum-of-squares
+public class MaximumAlternatingSumOfSquares {
+    public static long maxAlternatingSum(int[] nums) {
+        int n = nums.length;
+        long sum = 0;
+        long[] squares = new long[n];
+
+        for(int i=0; i<n; i++){
+            squares[i] = (long) nums[i] * nums[i];
+        }
+
+        Arrays.sort(squares);
+        for(int i=0; i<n; i++){
+            if(i < n/2){
+                sum -= squares[i];
+            }
+            else{
+                sum += squares[i];
+            }
+        }
+
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {1,2,3};
+        System.out.println(maxAlternatingSum(nums));
+    }
+}
